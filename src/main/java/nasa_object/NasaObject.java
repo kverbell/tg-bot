@@ -1,3 +1,5 @@
+package nasa_object;
+
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class NasaObject {
@@ -64,7 +66,7 @@ public class NasaObject {
 
     @Override
     public String toString() {
-        return "NasaObject{" +
+        return "nasa_object.NasaObject{" +
                 "copyright='" + copyright + '\'' +
                 ", date='" + date + '\'' +
                 ", explanation='" + explanation + '\'' +
