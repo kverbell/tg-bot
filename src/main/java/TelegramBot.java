@@ -14,7 +14,7 @@ public class TelegramBot extends TelegramLongPollingBot {
 
     public static final String URI = "https://api.nasa.gov/planetary/apod?api_key=hmfXdzTeW4270S6wK7mfKCkH6JdOAZn5mIhDYD4h";
 
-    public static long chat_id = 000000000; //hiding Telegram chat ID
+    public static long chat_id = 734058562; //hiding Telegram chat ID
 
     public TelegramBot() throws TelegramApiException {
         TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
